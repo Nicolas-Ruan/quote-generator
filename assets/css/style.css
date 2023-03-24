@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(../img/background.jpg);
+
+    opacity: 1;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.header{
+    background-color: #262626;
+    color: white;
+
+    text-align: center;
+    width: 80%;
+    height: 45px;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+
+.header h1{
+    font-size: 2rem;
+}
+
+.mainContainer {
+    width: 550px;
+    height: 400px;
+
+    background-color: rgb(242, 245, 248);
+
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid #262626;
+}
+
+.quoteSection{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    padding: 30px;
+
+
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+.quoteSection #quote{
+    margin-top: 15px;
+}
+
+.authorSection{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+  
+
+    color: rgb(224, 104, 104);
+    
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.authorSection #author{
+    padding: 10px;
+}
+
+
+.btnSection{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.btnSection #btn{
+    width: 150px;
+    height: 50px;
+
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    background-color: #262626;
+    color: white;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+}
+
+.btnSection #btn:active {
+    background-color: #434242;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    
+  }
